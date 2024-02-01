@@ -1,0 +1,3 @@
+/home/norberth/Dokumente/Programme/wavy_demo/build/CMakeFiles/main.dir
+/home/norberth/Dokumente/Programme/wavy_demo/build/CMakeFiles/edit_cache.dir
+/home/norberth/Dokumente/Programme/wavy_demo/build/CMakeFiles/rebuild_cache.dir

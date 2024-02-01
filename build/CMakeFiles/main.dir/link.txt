@@ -1,0 +1,1 @@
+/home/norberth/software/emsdk/upstream/emscripten/em++  -s USE_GLFW=3 -s ASSERTIONS=1 -s WASM=1 -s ASYNCIFY @CMakeFiles/main.dir/objects1.rsp -o main.html @CMakeFiles/main.dir/linkLibs.rsp
