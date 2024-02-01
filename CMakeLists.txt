@@ -10,4 +10,4 @@ if (EMSCRIPTEN)
 endif ()
 
 add_executable(main main.cc)
-target_link_libraries(main ${CMAKE_SOURCE_DIR}/raylib/src/libraylib.a)
+target_link_libraries(main ${CMAKE_SOURCE_DIR}/libraylib.a)
