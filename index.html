@@ -7,14 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <h1 style="font-family: Sixtyfour;">Wavy - A demo of emscripten using raylib</h1>
+    <p style="font-family: 'Roboto', sans-serif;">This is a visualisation of Lagrange polynomials with randomly generated (and changing) data values. It was coded in C++.</p>
 
     <!-- Create the canvas that the C++ code will draw into -->
-    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <div id="" style="overflow:scroll; height:1000px;">
+        <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    </div>
 
     <!-- Allow the C++ to access the canvas element --> 
     <script type='text/javascript'>
