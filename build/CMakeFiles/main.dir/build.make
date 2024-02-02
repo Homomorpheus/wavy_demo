@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/home/norberth/Dokumente/Technische Mathematik/WS2023-24/SciComp/blaenv/lib/python3.11/site-packages/cmake/data/bin/cmake"
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = "/home/norberth/Dokumente/Technische Mathematik/WS2023-24/SciComp/blaenv/lib/python3.11/site-packages/cmake/data/bin/cmake" -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -92,7 +92,7 @@ main_EXTERNAL_OBJECTS =
 
 main.html: CMakeFiles/main.dir/main.cc.o
 main.html: CMakeFiles/main.dir/build.make
-main.html: /home/norberth/Dokumente/Programme/wavy_demo/raylib/src/libraylib.a
+main.html: /home/norberth/Dokumente/Programme/wavy_demo/libraylib.a
 main.html: CMakeFiles/main.dir/linkLibs.rsp
 main.html: CMakeFiles/main.dir/objects1.rsp
 main.html: CMakeFiles/main.dir/link.txt

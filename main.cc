@@ -55,7 +55,7 @@ int main() {
 
 void UpdateDrawFrame(){
   BeginDrawing();
-    ClearBackground((Color){232, 200, 114});
+    ClearBackground((Color){99, 122, 159, 255});
 
     // change interpolation values
     for (size_t i=0; i < randval.height(); i++){
@@ -67,7 +67,7 @@ void UpdateDrawFrame(){
     for (size_t x=0; x < size - 1; x++){
       DrawLine(x, (randval*L)(0, x), (x+1), (randval*L)(0, x+1), (Color){255, 243, 207, 255});
       DrawLine(x, (randval*L)(1, x), (x+1), (randval*L)(1, x+1), (Color){201, 215, 221, 255});
-      DrawLine(x, (randval*L)(2, x), (x+1), (randval*L)(2, x+1), (Color){99, 122, 159, 255});
+      DrawLine(x, (randval*L)(2, x), (x+1), (randval*L)(2, x+1), (Color){232, 200, 114, 255});
     }
 
   EndDrawing();
